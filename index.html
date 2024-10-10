@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <!-- google fonts links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- fontawesome link -->
+    <script src="https://kit.fontawesome.com/663eb3174d.js" crossorigin="anonymous"></script>
+    <!-- DaisyUI link -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <!-- tailwind link -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .poppins-font {
+            font-family: "Poppins", sans-serif;
+        }
+    </style>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                        'primary-color': '#FEC007',
+                        'secondary-color': '#717171'
+                    }
+                }
+            }
+        }
+    </script>
+</head class="poppins-font">
+
+<body>
+    <header class="container mx-auto">
+        <nav class="px-5 md:px-0 md:w-5/6 mx-auto flex justify-between items-center h-20 md:h-32">
+            <h2 class="text-2xl font-bold">Tasty HUT</h2>
+            <button class="rounded-lg bg-primary-color text-xl font-bold px-10 py-4">Sign Up</button>
+        </nav>
+        <!-- banner section starts -->
+        <section class=" bg-[url('./images/banner_1.png')] bg-no-repeat bg-cover bg-center">
+            <div class=" h-full bg-black bg-opacity-65 ">
+                <div class="text-center flex flex-col items-center justify-center py-40 gap-6">
+                    <h1 class="text-white font-bold text-4xl md:text-5xl lg:text-6xl">Taste Our Delicious <br> Best
+                        Foods</h1>
+                    <p class="text-white">There are many variations of passages of Lorem Ipsum available, but the
+                        majority have <br> suffered alteration in some form, by injected humou.</p>
+
+                    <div class=" flex items-center bg-white rounded-lg w-1/2 ">
+                        <div class="w-full flex items-center gap-2 pl-5">
+                            <img src="./images/search-icon.png" alt="">
+                            <input type="text" class="focus:outline-none w-full pr-5" placeholder="Search any food" />
+                        </div>
+                        <button class="rounded-lg bg-primary-color text-xl font-bold px-10 py-4 ">Search</button>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+        <!-- banner section ends -->
+
+
+
+
+    </header>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
